@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,3 +6,49 @@
 :root{
     font-family:"Inter", sans-serif;
 }
+@keyframes animStar {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-2000px);
+    }
+  }
+  
+  /* Stars layers */
+  .stars {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 
+      100px 200px #FFF, 250px 300px #FFF, 400px 100px #FFF, 
+      550px 400px #FFF, 700px 150px #FFF, 850px 500px #FFF,
+      1000px 300px #FFF, 1200px 100px #FFF, 1400px 500px #FFF,
+      1600px 200px #FFF, 1800px 350px #FFF, 2000px 450px #FFF;
+    animation: animStar 50s linear infinite;
+  }
+  
+  .stars2 {
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 
+      50px 400px #FFF, 200px 100px #FFF, 350px 200px #FFF, 
+      500px 300px #FFF, 650px 150px #FFF, 800px 250px #FFF,
+      950px 450px #FFF, 1100px 100px #FFF, 1250px 200px #FFF,
+      1400px 300px #FFF, 1550px 400px #FFF, 1700px 450px #FFF;
+    animation: animStar 100s linear infinite;
+  }
+  
+  .stars3 {
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: 
+      30px 600px #FFF, 180px 450px #FFF, 330px 300px #FFF, 
+      480px 750px #FFF, 630px 500px #FFF, 780px 650px #FFF,
+      930px 800px #FFF, 1080px 600px #FFF, 1230px 750px #FFF,
+      1380px 450px #FFF, 1530px 500px #FFF, 1680px 750px #FFF;
+    animation: animStar 150s linear infinite;
+  }
+  
