@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Technologies from './components/Technologies';
 import Contact from './components/Contact';
-import './index.css'; // Import the CSS file
+import './index.css'; 
 
 const App = () => {
   return (

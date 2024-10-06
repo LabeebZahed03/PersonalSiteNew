@@ -5,7 +5,11 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Passionate AI engineer by day, full-stack web developer for some variety, statistics and art enthusiast for reasons beyond reason. I relish mental duels over a chessboard and occasionally mistake hiking trails for gravity experiments in my spare time.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an AI developer with a passion for solving real-world problems. With a strong background in AI research, I specialize in translating cutting-edge research papers into practical code. In my latest role as AI Lead at Myna, I developed innovative AI-driven solutions to complex challenges.
+
+Beyond AI, I have experience in competitive programming, having represented my university at the ACM ICPC 2022. I’m also a keen enthusiast of table tennis, tennis, chess, hiking, art, and reading.
+
+Technically, I have hands-on experience with a range of technologies including TensorFlow, PostgreSQL, Tailwind CSS, React.js, Node.js, Pinecone (Vector DB), Retrieval-Augmented Generation (RAG), Langchain, and Statistics.`;
 
 export const EXPERIENCES = [
   {
