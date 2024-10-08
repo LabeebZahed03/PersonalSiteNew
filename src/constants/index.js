@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+// import project1 from "../assets/projects/project-1.jpg";
+// import project2 from "../assets/projects/project-2.jpg";
+// import project3 from "../assets/projects/project-3.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Passionate AI engineer by day, full-stack web developer for some variety, statistics and art enthusiast for reasons beyond reason. I relish mental duels over a chessboard and occasionally mistake hiking trails for gravity experiments in my spare time.`;
 
@@ -21,10 +21,10 @@ export const EXPERIENCES = [
       "Implemented machine learning models for data-driven insights, enhancing business operations and achieving 98% accuracy in customer queries.",
       "Collaborated with cross-functional teams, utilizing AWS, Docker, and Kubernetes to optimize performance and scalability."
     ],
-    technologies: ["PyTorch", "Pinecone", "Langchain", "SQL","Python","Github","Matplotlib", "Google Cloud"],
+    technologies: ["PyTorch", "Pinecone", "Langchain", "SQL","Python","Github","Matplotlib", "Google Cloud", "Spark NLP", "RAG"],
   },
   {
-    year: "June 2024 - Present",
+    year: "October 2023 - June 2024",
     role: " Human-Robot Interaction Researcher",
     company: "UB CSE Department",
     description: [
@@ -34,36 +34,119 @@ export const EXPERIENCES = [
     ],
     technologies: ["Matplotlib", "PyTorch","Python","Github","Statistics"],
   },
+  {
+    year: "August 2022 - June 2024",
+    role: " Tech Consultant",
+    company: "Tech Squad - SUNY IT Wing",
+    description: [
+      "Led a team of 32 IT consultants, managing projects and resources to deliver technical solutions efficiently.",
+      "Oversaw software and hardware implementations, ensuring client satisfaction and effective problem-solving.",
+      "Implemented project management best practices, increasing efficiency by 25% and achieving a 95% client satisfaction rate."
+    ],
+    technologies: ["Salesforce", "Problem-solving","Communication","Teamwork","UNIX Command Line"],
+  },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "New Personal Website in React, Tailwind, and Framer Motion",
+    date: "October 2024",
+    description: [
+      "Currently developing a new personal portfolio website using React, Tailwind CSS, and Framer Motion for smooth animations.",
+      "Designed the website to be responsive and optimized for mobile and desktop users.",
+      "Integrated dynamic animations and transitions for interactive user experience using Framer Motion.",
+      "Building reusable components to ensure modularity and future scalability."
+    ],
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Responsive Design", "JavaScript", "UI/UX design"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "Restaurant Review Sentiment Analysis - Insight Generation Project",
+    date: "August 2024 - September 2024",
+    description: [
+      "Created a RAG pipeline to preprocess a large dataset and generate queries using sentiment analysis from RoBERTa model, topic analysis, and keyword extraction using Spark NLP.",
+      "Utilized a vector database (Pinecone) to store insights and tips data, feeding them into a retriever.",
+      "Performed cosine similarity search on the index and generated responses that mitigated hallucination.",
+      "Extracted and processed restaurant reviews from Google and Yelp APIs to provide meaningful insights.",
+      "Deployed the project on Google Cloud Console using Cloud Functions and Vertex AI for scalability."
+    ],
+    technologies: ["RoBERTa", "Spark NLP", "LangChain", "Pinecone", "Google Cloud", "Vertex AI", "Cosine Similarity", "APIs", "RAG", "Statistics"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    title: "Definitely Labeeb: Personalized Chatbot",
+    date: "September 2024",
+    description: [
+      "Created a personalized chatbot using AI and machine learning, integrating it into my personal website for 24/7 information access.",
+      "Implemented Retrieval-Augmented Generation with LangChain and deployed on cloud platforms using Docker and Kubernetes.",
+      "Leveraged data engineering techniques for efficient data processing and AI model deployment."
+    ],
+    technologies: ["LangChain", "RAG", "AI", "Docker", "Kubernetes", "Cloud"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "Reinforcement Learning Stock Market Prediction Project",
+    date: "April 2024",
+    description: [
+      "Developed a stock prediction app using reinforcement learning with a Deep Q-Network model in Python.",
+      "Created a two-step prediction tool allowing users to input a stock symbol and get real-time predictions with a 'buy, hold, sell' recommendation.",
+      "Integrated historic financial data from multiple sources to improve prediction accuracy.",
+      "Simulated a custom stochastic market environment to mimic the randomness of stock market trends.",
+      "Achieved an average return on investment of 12% on real trades based on model predictions."
+    ],
+    technologies: ["Python", "Reinforcement Learning", "Deep Q-Network", "Financial Data", "Custom Market Environment", "Stochastic Modeling"],
+  },
+  {
+    title: "Real-Time Facial Emotion Recognition Project",
+    date: "January 2024",
+    description: [
+      "Developed a real-time facial emotion recognizer that uses live camera input to predict facial emotions.",
+      "Utilized facial landmarks and custom-built computer vision models to process real-time video frames.",
+      "Trained the model using the CK+ emotion detection dataset for accurate emotion prediction.",
+      "Achieved efficient real-time performance for detecting emotions like happiness, anger, surprise, and more."
+    ],
+    technologies: ["Computer Vision", "Facial Landmarks", "Python", "OpenCV", "CK+ Dataset", "Real-Time Processing"],
+  },
+  {
+    title: "Social Media Meme Editor Application",
+    date: "March 2023 - May 2023",
+    description: [
+      "Collaborated with a team in an Agile environment to develop a full-stack social media application for editing and sharing memes.",
+      "Implemented user login verification, password hashing, and user profile pages with personalized data.",
+      "Users could post edited memes on the social media page, where others could interact with posts.",
+      "Built logout functionality and designed a secure, scalable backend using PHP and SQL.",
+      "Deployed the application on Heroku, ensuring smooth user experience with responsive front-end using HTML, CSS, and JavaScript."
+    ],
+    technologies: ["PHP", "SQL", "Heroku", "HTML", "CSS", "JavaScript", "Agile", "Login Verification", "Password Hashing"],
+  },
+  
+  {
+    title: "Multi-Modal Emotion Detection",
+    date: "October 2023 - March 2024",
+    description: [
+      "Read through novel research papers and translated them into recreated code for emotion detection.",
+      "Achieved 86% accuracy on average for detecting emotions across three modalities: face, speech, and text.",
+      "Developed the system as part of research to create an emotionally intelligent chatbot.",
+    ],
+    technologies: ["Python", "TensorFlow", "Keras", "NLP", "Computer Vision", "Speech Recognition"],
+  },
+  {
+    title: "Neural Network Powered Self-Driving Car Simulation",
+    date: "January 2023",
+    description: [
+      "Created a 2D top-down simulation of a self-driving car using a simple Neural Network and reinforcement learning.",
+      "Developed the environment using Vanilla JavaScript.",
+      "Achieved autonomous navigation with a 90%+ success rate in a custom environment."
+    ],
+    technologies: ["Neural Networks", "Reinforcement Learning", "Vanilla JavaScript", "Simulation"],
+  },
+
+  {
+    title: "EnCapsulate: Video Summarization Application",
+    date: "March 2022",
+    description: [
+      "Developed a lecture summarization app using NLP and machine learning algorithms to process multi-modal data.",
+      "Implemented AI-driven processes for real-time and recorded summarization, reducing video review time by 50%.",
+      "Utilized Python, TensorFlow, and AWS to deploy scalable solutions."
+    ],
+    technologies: ["Python", "TensorFlow", "NLP", "AWS", "Machine Learning", "Video Processing", "SpaCy"],
   },
 ];
 
