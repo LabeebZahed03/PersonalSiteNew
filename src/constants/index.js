@@ -35,6 +35,17 @@ export const EXPERIENCES = [
     technologies: ["Matplotlib", "PyTorch","Python","Github","Statistics"],
   },
   {
+    year: "April 2022",
+    role: "Competitive Programmer",
+    company: "ACM ICPC - North America Regionals 2022",
+    description: [
+      "Competed in a high-pressure environment, solving complex algorithmic problems under strict time constraints.",
+      "Collaborated with teammates to optimize solutions and implement efficient algorithms in real-time.",
+      "Demonstrated expertise in data structures, algorithms, and mathematical concepts to solve advanced programming challenges."
+    ],
+    technologies: [ "Python", "Algorithms", "Data Structures", "Dynamic Programming", "Graph Theory", "Mathematics"]
+  },
+  {
     year: "August 2022 - June 2024",
     role: " Tech Consultant",
     company: "Tech Squad - SUNY IT Wing",
