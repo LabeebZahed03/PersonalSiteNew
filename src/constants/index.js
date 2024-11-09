@@ -62,7 +62,34 @@ export const PROJECTS = [
   { title: "Rufus AI Web Scraper", date: "October 2023", 
     date:"October 2024",
     description: [ "Developed Rufus, an AI-powered tool designed to intelligently crawl websites and extract relevant data for use in Retrieval-Augmented Generation (RAG) pipelines.", "Implemented advanced Natural Language Processing (NLP) using spaCy for keyword extraction and content relevance.", "Utilized Selenium WebDriver and BeautifulSoup for dynamic web content handling and HTML parsing.", "Extracted metadata such as titles, headings, and last updated dates to provide structured output suitable for RAG integration.", "Released Rufus as a Python package available via pip, enabling easy installation and integration into existing workflows." ], 
-    technologies: ["Python", "spaCy", "Selenium", "BeautifulSoup", "NLP", "Web Scraping", "Retrieval-Augmented Generation", "API Development"], },
+    technologies: ["Python", "spaCy", "Selenium", "BeautifulSoup", "NLP", "Web Scraping", "Retrieval-Augmented Generation", "API Development"], 
+  },
+  {
+    title: "Business Intelligence & Review Analysis Platform",
+    date: "August 2024 - September 2024",
+    description: [
+    "Engineered a hybrid neural network combining RoBERTa, CNN, and LSTM architectures to analyze customer sentiment, achieving 85%+ accuracy through transfer learning and custom data preprocessing",
+    "Developed a multi-index RAG pipeline integrating Claude API to extract and categorize business aspects across 90+ predefined metrics, enabling granular analysis of customer feedback",
+    "Built scalable data collectors to process and analyze multiple data sources including customer reviews, website content, and social media engagement metrics",
+    "Implemented distributed text processing using Spark NLP for efficient analysis of large-scale business data, with automated insight generation through aspect-based sentiment categorization",
+    "Deployed the system on Google Cloud Vertex AI with automated scaling, enabling real-time analysis and feedback generation for business decision-making"
+    ],
+    technologies: [
+    "RoBERTa",
+    "CNN-LSTM",
+    "Claude API",
+    "Spark NLP",
+    "Google Cloud",
+    "Vertex AI",
+    "RAG",
+    "PyTorch",
+    "Transformers",
+    "Spacy",
+    "NLTK",
+    "pandas",
+    "NumPy"
+    ],
+    },
   {
     title: "New Personal Website in React, Tailwind, and Framer Motion",
     date: "October 2024",
