@@ -59,6 +59,10 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  { title: "Rufus AI Web Scraper", date: "October 2023", 
+    date:"October 2024",
+    description: [ "Developed Rufus, an AI-powered tool designed to intelligently crawl websites and extract relevant data for use in Retrieval-Augmented Generation (RAG) pipelines.", "Implemented advanced Natural Language Processing (NLP) using spaCy for keyword extraction and content relevance.", "Utilized Selenium WebDriver and BeautifulSoup for dynamic web content handling and HTML parsing.", "Extracted metadata such as titles, headings, and last updated dates to provide structured output suitable for RAG integration.", "Released Rufus as a Python package available via pip, enabling easy installation and integration into existing workflows." ], 
+    technologies: ["Python", "spaCy", "Selenium", "BeautifulSoup", "NLP", "Web Scraping", "Retrieval-Augmented Generation", "API Development"], },
   {
     title: "New Personal Website in React, Tailwind, and Framer Motion",
     date: "October 2024",
